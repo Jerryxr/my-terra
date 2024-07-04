@@ -20,7 +20,7 @@ variable "secret_key"{
 }
 variable "region_name"{
    type = string
-   default = "us-east-1"
+   default = "ap-southeast-2"
 }
 resource "aws_instance" "myec2" {
   ami                    = "ami-03f0544597f43a91d"
